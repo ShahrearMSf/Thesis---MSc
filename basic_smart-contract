@@ -1,0 +1,79 @@
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.7.0 <0.9.0;
+
+contract Supplychain {
+    struct Medicine {
+        string name;
+        uint id;
+        string detail;
+        string manufacturer;
+        uint quantity;
+        string expirationDate;
+    }
+    
+    struct Supplier {
+        string name;
+        uint id;
+        string location;
+        string contactInfo;
+    }
+    
+    Medicine private medicine;
+    Supplier private supplier;
+
+    function setMedicineDetails(string memory _name, uint _id, string memory _detail, string memory _manufacturer, uint _quantity, string memory _expirationDate) public {
+        medicine.name = _name;
+        medicine.id = _id;
+        medicine.detail = _detail;
+        medicine.manufacturer = _manufacturer;
+        medicine.quantity = _quantity;
+        medicine.expirationDate = _expirationDate;
+    }
+    
+    function setSupplierDetails(string memory _name, uint _id, string memory _location, string memory _contactInfo) public {
+        supplier.name = _name;
+        supplier.id = _id;
+        supplier.location = _location;
+        supplier.contactInfo = _contactInfo;
+    }
+    
+    function getMedicineName() public view returns (string memory) {
+        return medicine.name;
+    }
+    
+    function getMedicineid() public view returns (uint) {
+        return medicine.id;
+    }
+    
+    function getMedicinedetail() public view returns (string memory) {
+        return medicine.detail;
+    }
+    
+    function getMedicineManufacturer() public view returns (string memory) {
+        return medicine.manufacturer;
+    }
+    
+    function getMedicineQuantity() public view returns (uint) {
+        return medicine.quantity;
+    }
+    
+    function getMedicineExpirationDate() public view returns (string memory) {
+        return medicine.expirationDate;
+    }
+    
+    function getSupplierName() public view returns (string memory) {
+        return supplier.name;
+    }
+    
+    function getSupplierId() public view returns (uint) {
+        return supplier.id;
+    }
+    
+    function getSupplierLocation() public view returns (string memory) {
+        return supplier.location;
+    }
+    
+    function getSupplierContactInfo() public view returns (string memory) {
+        return supplier.contactInfo;
+    }
+}
