@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <a href="[https://your-journal-link.com](https://www.sciencedirect.com/science/article/pii/S2772918425000207)" target="_blank">
+  <a href="https://www.sciencedirect.com/science/article/pii/S2772918425000207" target="_blank">
     <img src="https://img.shields.io/badge/Q1%20Journal%20Publication-View-blue?style=for-the-badge" />
   </a>
   &nbsp;
@@ -11,6 +11,7 @@
     <img src="https://img.shields.io/badge/Presentation-Watch-orange?style=for-the-badge" />
   </a>
 </p>
+
 
 ## 📘 Overview
 
