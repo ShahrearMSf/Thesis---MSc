@@ -21,7 +21,11 @@ This repository contains the source code and documentation for the MSc thesis pr
 
 This research addresses the pressing issues of **security**, **traceability**, and **data integrity** in the pharmaceutical supply chain. It proposes a blockchain-powered solution enhanced with polymorphic encryption and cloud integration, ensuring both **transparency** and **confidentiality** in drug tracking and distribution.
 
-![License](https://img.shields.io/badge/status-MSc%20Thesis-blueviolet)  ![Tech](https://img.shields.io/badge/Technologies-Blockchain%2C%20Encryption%2C%20Cloud-orange)
+<p align="center">
+  <img src="https://img.shields.io/badge/status-MSc%20Thesis-blueviolet" />
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Technologies-Blockchain%2C%20Encryption%2C%20Cloud-orange" />
+</p>
 
 ---
 
